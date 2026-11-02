@@ -1,8 +1,0 @@
-url https://github.com/Homebrew/homebrew-core/blob/7c2e5ebb9ad5c8cdcfa86badb6b91d1be3a69d90/Formula/g/gradle.rb
-repo https://github.com/Homebrew/homebrew-core.git
-commit 7c2e5ebb9ad5c8cdcfa86badb6b91d1be3a69d90
-tree 3cdeb0af4fef06ae7c4d7af41bd14aab043d64d3
-path Formula/g/gradle.rb
-blob d2f358982de75082c8d8f9b7bfa8c99dc1e3a08d
-date 2026-09-27T21:34:19Z
-subject gradle: update 9.8.0 bottle.

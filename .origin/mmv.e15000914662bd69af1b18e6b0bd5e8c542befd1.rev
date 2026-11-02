@@ -1,0 +1,8 @@
+url https://github.com/Homebrew/homebrew-core/blob/96189fa43634db0d0c4f95d4818c61537fe70cd9/Formula/m/mmv.rb
+repo https://github.com/Homebrew/homebrew-core.git
+commit 96189fa43634db0d0c4f95d4818c61537fe70cd9
+tree e15000914662bd69af1b18e6b0bd5e8c542befd1
+path Formula/m/mmv.rb
+blob a820b2aaf8afedfa06e9d97a846bfd37f4e79e97
+date 2026-11-01T18:09:26Z
+subject mmv: add `deny_network_access!`

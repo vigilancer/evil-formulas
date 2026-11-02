@@ -1,0 +1,8 @@
+url https://github.com/Homebrew/homebrew-core/blob/cf7bb61aae5174facb850485e8e9915fff4155e4/Formula/w/watchman.rb
+repo https://github.com/Homebrew/homebrew-core.git
+commit cf7bb61aae5174facb850485e8e9915fff4155e4
+tree 8a9e68cfeae49653fc15e2a1cad4726898b9a4e4
+path Formula/w/watchman.rb
+blob 0cf96ea930e0adc6c3ae0b1e3e34c3784ac0bf61
+date 2026-10-27T20:20:38Z
+subject watchman: update 2026.10.26.00 bottle.

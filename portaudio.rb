@@ -6,6 +6,7 @@ class Portaudio < Formula
   sha256 "5af29ba58bbdbb7bbcefaaecc77ec8fc413f0db6f4c4e286c40c3e1b83174fa0"
   license "MIT"
   version_scheme 1
+  compatibility_version 1
   head "https://github.com/PortAudio/portaudio.git", branch: "master"
 
   livecheck do

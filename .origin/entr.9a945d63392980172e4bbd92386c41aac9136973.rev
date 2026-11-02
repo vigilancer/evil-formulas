@@ -1,0 +1,8 @@
+url https://github.com/Homebrew/homebrew-core/blob/b898e3f76f98f750daad042243c58a8dcfbd7025/Formula/e/entr.rb
+repo https://github.com/Homebrew/homebrew-core.git
+commit b898e3f76f98f750daad042243c58a8dcfbd7025
+tree 9a945d63392980172e4bbd92386c41aac9136973
+path Formula/e/entr.rb
+blob c9964b04a7cf40898c6555973008b97e783e599b
+date 2026-10-01T22:23:56Z
+subject entr: update 5.9 bottle.

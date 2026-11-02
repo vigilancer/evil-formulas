@@ -1,8 +1,0 @@
-url https://github.com/Homebrew/homebrew-core/blob/42554cea8e181275aada797ba4704313fa057927/Formula/p/portaudio.rb
-repo https://github.com/Homebrew/homebrew-core.git
-commit 42554cea8e181275aada797ba4704313fa057927
-tree 6cbc3154a10229ddb2ef7bd7498298861330559c
-path Formula/p/portaudio.rb
-blob 863014b88c9614e943c262e3ef50036eed53c7c6
-date 2026-09-10T06:36:39Z
-subject portaudio: update 19.7.0 bottle.

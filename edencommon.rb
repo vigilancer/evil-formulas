@@ -1,18 +1,18 @@
 class Edencommon < Formula
   desc "Shared library for Watchman and Eden projects"
   homepage "https://github.com/facebookexperimental/edencommon"
-  url "https://github.com/facebookexperimental/edencommon/archive/refs/tags/v2026.09.21.00.tar.gz"
-  sha256 "f7d3012cd3fbde90dda2d9ef476167dd71448894afe2c2ef4e78553dd1dedd9d"
+  url "https://github.com/facebookexperimental/edencommon/archive/refs/tags/v2026.10.26.00.tar.gz"
+  sha256 "08f5597c7ddbc79b6fca13bf97cf6f8ef4695a7ac6bc9d50c67cb8a435600d9a"
   license "MIT"
   compatibility_version 1
   head "https://github.com/facebookexperimental/edencommon.git", branch: "main"
 
   bottle do
-    sha256 cellar: :any, arm64_golden_gate: "77939fd41b4923c987d29bd85737fa085a694981a29f13fb09969de39873a8f4"
-    sha256 cellar: :any, arm64_tahoe:       "94a77e098baa7c7f4c3a1e326200e914a31046d3b0f02d30e860b7fdc73a9a28"
-    sha256 cellar: :any, arm64_sequoia:     "29790a434b3ebacd29239fdcf3f30656b606578df7150aed04ce862c1bf9adc9"
-    sha256 cellar: :any, arm64_linux:       "6e80d2c6bc5501b58d7167265c89c6d12d42971c32f277a9fe1592010f850e49"
-    sha256 cellar: :any, x86_64_linux:      "7d409d8a8e58cc0f45b0a5f022984648e64e77871b4081ad0f9904f539a54e00"
+    sha256 cellar: :any, arm64_golden_gate: "316fbd1612e5e1603b1b9a0147d4c359c54b3b80ec7b4e322099d67c3aefc474"
+    sha256 cellar: :any, arm64_tahoe:       "875227a57731f52989dd2847f08ef45274d5e8c26277849d657c5ad0d9d40692"
+    sha256 cellar: :any, arm64_sequoia:     "c8d8501d3ecd0c4dece7700d99bd8647f83b4b44333f50e47810a5b2932763a6"
+    sha256 cellar: :any, arm64_linux:       "a2f4f76858007ad3f19683e5eb35e9f7175a2441007ac07b2448d1d664f0d70c"
+    sha256 cellar: :any, x86_64_linux:      "75ba1e9c05fdce730fdd81ccf20efa9247613349e59409d22d2d6842369bcbd9"
   end
 
   depends_on "cmake" => :build
@@ -25,15 +25,6 @@ class Edencommon < Formula
   depends_on "fb303"
   depends_on "fmt"
   depends_on "folly"
-
-  # GCC 13 libstdc++ no longer pulls in <string> via <string_view>.
-  # PR ref: https://github.com/facebookexperimental/edencommon/pull/32
-  patch do
-    url "https://github.com/facebookexperimental/edencommon/commit/7dc082da238446cde535b03370be0b709701b7ac.patch?full_index=1"
-    sha256 "1becb3b9bcba13f19cb697baa015bece72b0330e4beae6db5a459f4e6fbff5a5"
-    type :unofficial
-    resolves "https://github.com/facebookexperimental/edencommon/pull/32"
-  end
 
   def install
     # Fix "Process terminated due to timeout" by allowing a longer timeout.

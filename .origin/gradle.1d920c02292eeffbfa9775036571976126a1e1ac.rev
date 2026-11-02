@@ -1,0 +1,8 @@
+url https://github.com/Homebrew/homebrew-core/blob/835eaf4f00c399f6f82e6afd93d4371b210825bf/Formula/g/gradle.rb
+repo https://github.com/Homebrew/homebrew-core.git
+commit 835eaf4f00c399f6f82e6afd93d4371b210825bf
+tree 1d920c02292eeffbfa9775036571976126a1e1ac
+path Formula/g/gradle.rb
+blob 48e35faba84e9fce1f2ea7b1827bda827c4d7db1
+date 2026-10-30T09:14:07Z
+subject gradle: add compatibility_version 1

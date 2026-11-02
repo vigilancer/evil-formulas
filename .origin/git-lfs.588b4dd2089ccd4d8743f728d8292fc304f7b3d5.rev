@@ -1,8 +1,0 @@
-url https://github.com/Homebrew/homebrew-core/blob/8a5913ddde9329250b50bbece07f5f61f27457b9/Formula/g/git-lfs.rb
-repo https://github.com/Homebrew/homebrew-core.git
-commit 8a5913ddde9329250b50bbece07f5f61f27457b9
-tree 588b4dd2089ccd4d8743f728d8292fc304f7b3d5
-path Formula/g/git-lfs.rb
-blob 4d1e6573a51ed1bfa0b04f77376eb0c9b2ecff74
-date 2026-09-13T15:25:37Z
-subject git-lfs: add `fetch`, `deny_network_access!`

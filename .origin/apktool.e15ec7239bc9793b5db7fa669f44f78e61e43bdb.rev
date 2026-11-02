@@ -1,0 +1,8 @@
+url https://github.com/Homebrew/homebrew-core/blob/7d4dce46b8f7cc8e124a037743f1fb82a1029a7e/Formula/a/apktool.rb
+repo https://github.com/Homebrew/homebrew-core.git
+commit 7d4dce46b8f7cc8e124a037743f1fb82a1029a7e
+tree e15ec7239bc9793b5db7fa669f44f78e61e43bdb
+path Formula/a/apktool.rb
+blob 768f88477faa16f3584e3e2e173f6e9cb9ee4d00
+date 2026-10-31T18:34:18Z
+subject apktool: restrict network access

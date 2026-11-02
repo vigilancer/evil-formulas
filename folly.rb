@@ -1,18 +1,18 @@
 class Folly < Formula
   desc "Collection of reusable C++ library artifacts developed at Facebook"
   homepage "https://github.com/facebook/folly"
-  url "https://github.com/facebook/folly/archive/refs/tags/v2026.09.21.00.tar.gz"
-  sha256 "a8d82032b316d4f69b3f20ac3645c4bb12744a25f7cb53b99a9e05e8f3675fb6"
+  url "https://github.com/facebook/folly/archive/refs/tags/v2026.10.26.00.tar.gz"
+  sha256 "b47fe04b804adfb51c65cda6b171505e67b9d1d69621106e54697821d1bf7ebc"
   license "Apache-2.0"
   compatibility_version 1
   head "https://github.com/facebook/folly.git", branch: "main"
 
   bottle do
-    sha256 cellar: :any, arm64_golden_gate: "d3716b3da562e94af7c8b0e45b51d0f56b8e39464324deebc05bf340c09ae980"
-    sha256 cellar: :any, arm64_tahoe:       "80da30a9fc0d9e2fdb92208fd3fa96c2a67ba129513d19b5bfa628525e35ec2a"
-    sha256 cellar: :any, arm64_sequoia:     "16d70bfd0244d5915bde8f5f3675107b95610ab41e701ff20054bf8cc4f8dc39"
-    sha256 cellar: :any, arm64_linux:       "0f090de2e6f06df880ef65a2cd46fba6bdb2025803c608d869e8ce8049222319"
-    sha256 cellar: :any, x86_64_linux:      "60c58669f9b885b673f0ddc5de06a9253f77b631fe831f4bd19eba2e752b00aa"
+    sha256 cellar: :any, arm64_golden_gate: "50a8093a63f295161d17bb70379ab1e26a3100fd200499f61cd13f5fc4d29fda"
+    sha256 cellar: :any, arm64_tahoe:       "f3ad9a1b7bf85f1caa59f3272d916e62e89a5887b84179bb667c029f53fa3a06"
+    sha256 cellar: :any, arm64_sequoia:     "544e259254279aa5260749f2e7d8242e79b86cb89405a3d76ab406545731e648"
+    sha256 cellar: :any, arm64_linux:       "0dc49073b933e704f532022d0fc7eb5410b10d90be3c4d6765994328227cf266"
+    sha256 cellar: :any, x86_64_linux:      "f94f57af252acbf7ec4a2195f26d64f2179e131efd61a23c4f6495572e62defa"
   end
 
   depends_on "cmake" => :build
@@ -26,7 +26,7 @@ class Folly < Formula
   depends_on "libevent"
   depends_on "libsodium"
   depends_on "lz4"
-  depends_on "openssl@3"
+  depends_on "openssl@4"
   depends_on "snappy"
   depends_on "xz"
   depends_on "zstd"
@@ -37,9 +37,6 @@ class Folly < Formula
     depends_on "zlib-ng-compat"
   end
 
-  # Workaround for arm64 Linux error "Missing variable is: CMAKE_ASM_CREATE_SHARED_LIBRARY"
-  # Ref: https://github.com/facebook/folly/pull/2562#issuecomment-3988207056
-  #
   # Intel macOS: MathOperation_Simple.cpp is built with -mno-sse2, and the
   # macOS 15 SDK math.h then rejects _Float16. Rewrite that unused token in
   # this translation unit only so the scalar object stays scalar.
@@ -83,21 +80,6 @@ class Folly < Formula
 end
 
 __END__
-diff --git a/folly/external/aor/CMakeLists.txt b/folly/external/aor/CMakeLists.txt
-index e07e58745..1429f54e9 100644
---- a/folly/external/aor/CMakeLists.txt
-+++ b/folly/external/aor/CMakeLists.txt
-@@ -20,6 +20,10 @@
- # Linux ELF directives (.size, etc.) that Darwin's assembler doesn't support
- if(IS_AARCH64_ARCH)
- 
-+if(BUILD_SHARED_LIBS)
-+  set(CMAKE_ASM_CREATE_SHARED_LIBRARY ${CMAKE_C_CREATE_SHARED_LIBRARY})
-+endif()
-+
- folly_add_library(
-   NAME memcpy_aarch64
-   SRCS
 diff --git a/folly/crypto/detail/MathOperation_Simple.cpp b/folly/crypto/detail/MathOperation_Simple.cpp
 --- a/folly/crypto/detail/MathOperation_Simple.cpp
 +++ b/folly/crypto/detail/MathOperation_Simple.cpp

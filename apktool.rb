@@ -9,6 +9,13 @@ class Apktool < Formula
     sha256 cellar: :any_skip_relocation, all: "9a376927a5c810db5be63363485bfe4fb51cd0d6774a617b5ae37522a4d55300"
   end
 
+  resource "homebrew-test.apk", :test do
+    url "https://raw.githubusercontent.com/iBotPeaches/Apktool/v3.0.1/brut.apktool/apktool-lib/src/test/resources/issue1157/issue1157.apk"
+    sha256 "b3159fd172d39c6b73d1c0f18e31ceeaf1fe25c638e8946eb1a9af9432e1fd24"
+  end
+
+  deny_network_access!
+
   def install
     libexec.install "apktool_#{version}.jar"
     (bin/"apktool").write <<~SHELL
@@ -18,11 +25,6 @@ class Apktool < Formula
   end
 
   test do
-    resource "homebrew-test.apk" do
-      url "https://raw.githubusercontent.com/iBotPeaches/Apktool/v3.0.1/brut.apktool/apktool-lib/src/test/resources/issue1157/issue1157.apk"
-      sha256 "b3159fd172d39c6b73d1c0f18e31ceeaf1fe25c638e8946eb1a9af9432e1fd24"
-    end
-
     resource("homebrew-test.apk").stage do
       system bin/"apktool", "d", "issue1157.apk"
       # apktool b doesn't work on ARM Linux

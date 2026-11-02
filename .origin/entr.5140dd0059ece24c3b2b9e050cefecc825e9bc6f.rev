@@ -1,8 +1,0 @@
-url https://github.com/Homebrew/homebrew-core/blob/e9c9e13bdf3ceb8f60948b040f03d209360ddd0b/Formula/e/entr.rb
-repo https://github.com/Homebrew/homebrew-core.git
-commit e9c9e13bdf3ceb8f60948b040f03d209360ddd0b
-tree 5140dd0059ece24c3b2b9e050cefecc825e9bc6f
-path Formula/e/entr.rb
-blob 6eef11ed8869852a7326722dd06dbe18af9fc346
-date 2026-09-18T07:17:54Z
-subject entr: add `deny_network_access!`

@@ -1,0 +1,8 @@
+url https://github.com/Homebrew/homebrew-core/blob/992f71ee136a299466ad747cfcbd5a5c3582751c/Formula/g/git-lfs.rb
+repo https://github.com/Homebrew/homebrew-core.git
+commit 992f71ee136a299466ad747cfcbd5a5c3582751c
+tree 690a80d2e3e01b65badf3703cda32e1e03ab4edf
+path Formula/g/git-lfs.rb
+blob f506e0cb31669bf9c5bbc5e053371f0c59f4646b
+date 2026-10-22T20:28:47Z
+subject git-lfs: update 3.8.1 bottle.

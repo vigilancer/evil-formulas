@@ -1,0 +1,8 @@
+url https://github.com/Homebrew/homebrew-core/blob/08497f15b6b578dc7c651d610413d9261ee06837/Formula/b/bundletool.rb
+repo https://github.com/Homebrew/homebrew-core.git
+commit 08497f15b6b578dc7c651d610413d9261ee06837
+tree 8b43e1c11c421588b0e7f7e469204a876ee7979b
+path Formula/b/bundletool.rb
+blob 8a75c94cc74c95ab5d62fb772b93c94c821aa59f
+date 2026-10-08T13:50:55Z
+subject bundletool: use new test resources.

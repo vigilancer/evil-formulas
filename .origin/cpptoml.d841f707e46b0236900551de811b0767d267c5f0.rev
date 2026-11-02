@@ -1,0 +1,8 @@
+url https://github.com/Homebrew/homebrew-core/blob/f1f43c2ee726be40f7ee754fb017b4e8a3beeacd/Formula/c/cpptoml.rb
+repo https://github.com/Homebrew/homebrew-core.git
+commit f1f43c2ee726be40f7ee754fb017b4e8a3beeacd
+tree d841f707e46b0236900551de811b0767d267c5f0
+path Formula/c/cpptoml.rb
+blob 31ce872659288ef7f8457deacf138dcd412ccb1c
+date 2026-10-30T09:13:47Z
+subject cpptoml: add compatibility_version 1

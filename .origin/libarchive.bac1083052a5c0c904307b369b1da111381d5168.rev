@@ -1,0 +1,8 @@
+url https://github.com/Homebrew/homebrew-core/blob/941e115dc78cc817698a16ab8fc2f183b713738b/Formula/lib/libarchive.rb
+repo https://github.com/Homebrew/homebrew-core.git
+commit 941e115dc78cc817698a16ab8fc2f183b713738b
+tree bac1083052a5c0c904307b369b1da111381d5168
+path Formula/lib/libarchive.rb
+blob a537549387d20b33d1dca874af1efc4b01270ba1
+date 2026-10-31T13:21:19Z
+subject libarchive: update 3.8.11 bottle.

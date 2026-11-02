@@ -1,8 +1,0 @@
-url https://github.com/Homebrew/homebrew-core/blob/5f268eb0cd8048c445a4d90e17422af1a90fe50c/Formula/m/mmv.rb
-repo https://github.com/Homebrew/homebrew-core.git
-commit 5f268eb0cd8048c445a4d90e17422af1a90fe50c
-tree 23e80afa5c1f560bf0d8fbc0bb1841b11af27892
-path Formula/m/mmv.rb
-blob c489cc294824760d3118caadc0cdf2e6053a68cb
-date 2026-09-13T06:01:42Z
-subject mmv: update 2.10 bottle.

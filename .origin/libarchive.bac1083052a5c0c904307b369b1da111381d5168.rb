@@ -1,8 +1,8 @@
 class Libarchive < Formula
   desc "Multi-format archive and compression library"
   homepage "https://www.libarchive.org"
-  url "https://www.libarchive.org/downloads/libarchive-3.8.9.tar.xz"
-  sha256 "888c934f9d95648ecb9163dc8e23ab80a476ecb81a8f1154704a227b5b676dde"
+  url "https://www.libarchive.org/downloads/libarchive-3.8.11.tar.xz"
+  sha256 "a3dc0872b1b39da34dc18ef1b944f0f11ffd37425d70ae04be679279f1cf43d2"
   license "BSD-2-Clause"
   compatibility_version 1
 
@@ -12,13 +12,11 @@ class Libarchive < Formula
   end
 
   bottle do
-    sha256 cellar: :any, arm64_golden_gate: "f5da77f1b589e76374e4499a8065e2a0972c382edd0825f957c70678c9329ca8"
-    sha256 cellar: :any, arm64_tahoe:       "0d24892c4031758a148bece7e41b82cc8be8c8af020eb379d43a98cf984ba26d"
-    sha256 cellar: :any, arm64_sequoia:     "0b478eea5f3310c1e3ec4a498e1d57417a59aaa5858e4a878dd0b78fd851aea6"
-    sha256 cellar: :any, arm64_sonoma:      "4561e7a6d54788627a8e50f188a5f8bddcba31ad1676423b84a8723282e77d2e"
-    sha256 cellar: :any, sonoma:            "17853cfab59f8768b8a68516e81ff41f0a5a23bbda3c51f8823e3664e608bd3f"
-    sha256 cellar: :any, arm64_linux:       "e0f5f37cce9f478e4dcd21b0475bdff91dbf1b15a0ea2cce7df62c66fbeddc65"
-    sha256 cellar: :any, x86_64_linux:      "c1c7ca1b5542a8cc1f375b1e0b150b547b9b3c09914481d6b0b2bca938ec273c"
+    sha256 cellar: :any, arm64_golden_gate: "ff99dd8abf1c0dd5dda11165e8307eb3eadece22d4b8003562b5869f9a9fc4f0"
+    sha256 cellar: :any, arm64_tahoe:       "f9daa6da55d53558557ea005b19786be9a2153cf4cad43f5d0439c9d35ab7144"
+    sha256 cellar: :any, arm64_sequoia:     "503847a252e54cec2415ab329e3a9a7b5be9d5624823a0e28bfb2b42e129c5e7"
+    sha256 cellar: :any, arm64_linux:       "a4eb0407bd3595748cdaf0e96fe92f4bfb2b377937811a1b1fa8fea667b9c373"
+    sha256 cellar: :any, x86_64_linux:      "c43b97f198208e62d35b4e649e458cd38c1ec5741f0a1e536f374291e6071fd0"
   end
 
   keg_only :provided_by_macos

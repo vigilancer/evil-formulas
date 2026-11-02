@@ -1,8 +1,0 @@
-url https://github.com/Homebrew/homebrew-core/blob/8e69e3b13b12f9ba526ad61edca4740f925ebb4b/Formula/b/bundletool.rb
-repo https://github.com/Homebrew/homebrew-core.git
-commit 8e69e3b13b12f9ba526ad61edca4740f925ebb4b
-tree 9f073de36a9c358bdd02c9679946714a12e6dd47
-path Formula/b/bundletool.rb
-blob 9f2bec066bcb8c590ea6b1b5f37aa5d456650bb0
-date 2025-12-15T23:14:45Z
-subject bundletool: update 1.18.3 bottle.

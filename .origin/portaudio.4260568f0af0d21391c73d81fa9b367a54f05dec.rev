@@ -1,0 +1,8 @@
+url https://github.com/Homebrew/homebrew-core/blob/b799f9b12d74b8c4a81438b4e53439f0719cbada/Formula/p/portaudio.rb
+repo https://github.com/Homebrew/homebrew-core.git
+commit b799f9b12d74b8c4a81438b4e53439f0719cbada
+tree 4260568f0af0d21391c73d81fa9b367a54f05dec
+path Formula/p/portaudio.rb
+blob a8f6c6c527f4b9bcc82311cc6d30e05fd52656e3
+date 2026-10-30T10:25:07Z
+subject portaudio: add compatibility_version 1

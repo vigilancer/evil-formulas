@@ -1,0 +1,8 @@
+url https://github.com/Homebrew/homebrew-core/blob/7ee687941e038a8c67c9ec7f7d3719db609e5421/Formula/j/jadx.rb
+repo https://github.com/Homebrew/homebrew-core.git
+commit 7ee687941e038a8c67c9ec7f7d3719db609e5421
+tree c9971420cf3e0f12c09bdb413d2405206505838a
+path Formula/j/jadx.rb
+blob 4abe542cafe36129ab6742ae58dc4e278406218b
+date 2026-10-08T13:51:00Z
+subject jadx: use new test resources.

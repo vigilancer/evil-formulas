@@ -1,0 +1,8 @@
+url https://github.com/Homebrew/homebrew-core/blob/3d137d61349a29ab592c0d83e969bd7398bac05c/Formula/f/folly.rb
+repo https://github.com/Homebrew/homebrew-core.git
+commit 3d137d61349a29ab592c0d83e969bd7398bac05c
+tree 4ce7825646e609336bc6f7e0360277256c42b414
+path Formula/f/folly.rb
+blob ee0cc18500605fe9567edbdd55deb66554d9f4ee
+date 2026-10-27T20:20:38Z
+subject folly: update 2026.10.26.00 bottle.

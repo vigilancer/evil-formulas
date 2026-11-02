@@ -1,0 +1,8 @@
+url https://github.com/Homebrew/homebrew-core/blob/92507c2ff0515a02bebff2c0df9dceddd19e433c/Formula/e/edencommon.rb
+repo https://github.com/Homebrew/homebrew-core.git
+commit 92507c2ff0515a02bebff2c0df9dceddd19e433c
+tree 9b83ce1d7e26f1b137590433fa1f25b2a0e9c29a
+path Formula/e/edencommon.rb
+blob c7280d8bf8e0a58c612d6c414adea14c47edd97e
+date 2026-10-27T20:20:37Z
+subject edencommon: update 2026.10.26.00 bottle.

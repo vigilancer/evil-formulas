@@ -1,0 +1,30 @@
+diff --git a/.origin/jadx.rb b/jadx.rb
+index 4abe542..30fbc15 100644
+--- a/.origin/jadx.rb
++++ b/jadx.rb
+@@ -18,7 +18,6 @@ class Jadx < Formula
+   end
+ 
+   depends_on "gradle" => :build
+-  depends_on "openjdk"
+ 
+   resource "homebrew-test.apk", :test do
+     url "https://raw.githubusercontent.com/facebook/redex/fa32d542d4074dbd485584413d69ea0c9c3cbc98/test/instr/redex-test.apk"
+@@ -30,9 +29,14 @@ class Jadx < Formula
+ 
+     system "gradle", "clean", "dist"
+     libexec.install Dir["build/jadx/*"]
+-    bin.install libexec/"bin/jadx"
+-    bin.install libexec/"bin/jadx-gui"
+-    bin.env_script_all_files libexec/"bin", Language::Java.overridable_java_home_env
++    (bin/"jadx").write <<~SHELL
++      #!/bin/bash
++      exec "#{libexec}/bin/jadx" "$@"
++    SHELL
++    (bin/"jadx-gui").write <<~SHELL
++      #!/bin/bash
++      exec "#{libexec}/bin/jadx-gui" "$@"
++    SHELL
+   end
+ 
+   test do

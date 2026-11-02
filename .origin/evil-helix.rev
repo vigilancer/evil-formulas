@@ -1,8 +1,0 @@
-url https://github.com/Homebrew/homebrew-core/blob/b03930a8771d50c568f471e943c277dc7557bb01/Formula/e/evil-helix.rb
-repo https://github.com/Homebrew/homebrew-core.git
-commit b03930a8771d50c568f471e943c277dc7557bb01
-tree e695b7bd0f998b0d1f7db65e95eb227a97d1bb4b
-path Formula/e/evil-helix.rb
-blob 5bd8256cd085f18ec3781994be267c280441d3d9
-date 2026-09-12T17:42:29Z
-subject evil-helix: update 20250915 bottle.

@@ -1,0 +1,26 @@
+diff --git a/.origin/git-lfs.rb b/git-lfs.rb
+index f506e0c..de41fa3 100644
+--- a/.origin/git-lfs.rb
++++ b/git-lfs.rb
+@@ -21,7 +21,6 @@ class GitLfs < Formula
+     sha256 cellar: :any,                 x86_64_linux:      "16986c189e2c86839c171a8ce1d6d05baebf5bf34825cfbe6db5cf821306a308"
+   end
+ 
+-  depends_on "asciidoctor" => :build
+   depends_on "go" => :build
+ 
+   deny_network_access!
+@@ -35,13 +34,7 @@ class GitLfs < Formula
+     ENV["VERSION"] = version
+ 
+     system "make"
+-    system "make", "man"
+-
+     bin.install "bin/git-lfs"
+-    man1.install Dir["man/man1/*.1"]
+-    man5.install Dir["man/man5/*.5"]
+-    man7.install Dir["man/man7/*.7"]
+-    doc.install Dir["man/html/*.html"]
+     generate_completions_from_executable(bin/"git-lfs", "completion")
+   end
+ 

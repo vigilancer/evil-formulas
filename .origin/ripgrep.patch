@@ -1,0 +1,12 @@
+diff --git a/.origin/ripgrep.rb b/ripgrep.rb
+index 2360cd6..144c113 100644
+--- a/.origin/ripgrep.rb
++++ b/ripgrep.rb
+@@ -23,7 +23,6 @@ class Ripgrep < Formula
+     sha256 cellar: :any, x86_64_linux:      "b92a80402edd4e6fa17e9eb580d20e941c60787510c4ce2716fa53d2c6d4c432"
+   end
+ 
+-  depends_on "asciidoctor" => :build
+   depends_on "pkgconf" => :build
+   depends_on "rust" => :build
+   depends_on "pcre2"

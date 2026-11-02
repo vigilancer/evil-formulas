@@ -1,0 +1,20 @@
+diff --git a/.origin/bfg.rb b/bfg.rb
+index ba60986..2b59a64 100644
+--- a/.origin/bfg.rb
++++ b/bfg.rb
+@@ -14,11 +14,12 @@ class Bfg < Formula
+     sha256 cellar: :any_skip_relocation, all: "e6ab06431b47f90f783c186032521800d0fffb1f9fffb842c0de85e624d54d2d"
+   end
+ 
+-  depends_on "openjdk"
+-
+   def install
+     libexec.install "bfg-#{version}.jar"
+-    bin.write_jar_script libexec/"bfg-#{version}.jar", "bfg"
++    (bin/"bfg").write <<~SHELL
++      #!/bin/bash
++      exec "${JAVA_HOME:+$JAVA_HOME/bin/}java" -jar "#{libexec}/bfg-#{version}.jar" "$@"
++    SHELL
+   end
+ 
+   test do

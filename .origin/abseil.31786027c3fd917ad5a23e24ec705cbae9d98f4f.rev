@@ -1,0 +1,8 @@
+url https://github.com/Homebrew/homebrew-core/blob/ff4e5b5717b670a936efda4331b6ce5023ef47dc/Formula/a/abseil.rb
+repo https://github.com/Homebrew/homebrew-core.git
+commit ff4e5b5717b670a936efda4331b6ce5023ef47dc
+tree 31786027c3fd917ad5a23e24ec705cbae9d98f4f
+path Formula/a/abseil.rb
+blob fc89a329ed6ac82ba10d55533042c6e2db2e1a6f
+date 2026-09-10T08:27:33Z
+subject abseil: update 20260817.0 bottle.

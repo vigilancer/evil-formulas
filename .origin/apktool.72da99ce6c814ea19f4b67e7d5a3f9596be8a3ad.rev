@@ -1,0 +1,8 @@
+url https://github.com/Homebrew/homebrew-core/blob/c586d66f39d1c1b162e758e5234b7240eb486c79/Formula/a/apktool.rb
+repo https://github.com/Homebrew/homebrew-core.git
+commit c586d66f39d1c1b162e758e5234b7240eb486c79
+tree 72da99ce6c814ea19f4b67e7d5a3f9596be8a3ad
+path Formula/a/apktool.rb
+blob 04b85c2bcddc5412cedad4a7d91eb547228e64df
+date 2026-07-20T12:06:45Z
+subject apktool: update 3.0.3 bottle.

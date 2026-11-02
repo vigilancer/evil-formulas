@@ -1,0 +1,8 @@
+url https://github.com/Homebrew/homebrew-core/blob/f941fe79e9c4fb060690e65f330061ff444c36da/Formula/j/jadx.rb
+repo https://github.com/Homebrew/homebrew-core.git
+commit f941fe79e9c4fb060690e65f330061ff444c36da
+tree 0fed82481a03a8ba64ff9d28fc61c53e9f536d3f
+path Formula/j/jadx.rb
+blob c033d2daa68383ffecd950a7d30e4fcfbc57be72
+date 2026-09-11T03:01:36Z
+subject jadx: update 1.5.6 bottle.

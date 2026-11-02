@@ -1,0 +1,8 @@
+url https://github.com/Homebrew/homebrew-core/blob/a20fa639cf8ec79ff0bbaa2c44f344cadc844a6d/Formula/r/ripgrep.rb
+repo https://github.com/Homebrew/homebrew-core.git
+commit a20fa639cf8ec79ff0bbaa2c44f344cadc844a6d
+tree 2e3f7b7f48a764c65abdda3b2220efb9b320a68a
+path Formula/r/ripgrep.rb
+blob 2360cd6de75912505f0f151c365a95c6d838ec29
+date 2026-09-21T11:50:40Z
+subject ripgrep: use std_cargo_fetch_args

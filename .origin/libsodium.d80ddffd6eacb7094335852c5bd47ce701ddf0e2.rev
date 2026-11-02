@@ -1,0 +1,8 @@
+url https://github.com/Homebrew/homebrew-core/blob/3e1b8fdc35b38e1a27cd567e052f8cc0b59a11c8/Formula/lib/libsodium.rb
+repo https://github.com/Homebrew/homebrew-core.git
+commit 3e1b8fdc35b38e1a27cd567e052f8cc0b59a11c8
+tree d80ddffd6eacb7094335852c5bd47ce701ddf0e2
+path Formula/lib/libsodium.rb
+blob 503c4fda8fa68d54ce21059f21a7451e6e78dd4d
+date 2026-09-10T08:07:50Z
+subject libsodium: update 1.0.22 bottle.

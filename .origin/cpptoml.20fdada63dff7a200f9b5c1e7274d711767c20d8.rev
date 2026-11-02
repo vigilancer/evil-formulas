@@ -1,0 +1,8 @@
+url https://github.com/Homebrew/homebrew-core/blob/1b14b0057814c6e3fcbe993e497b3c0410c13304/Formula/c/cpptoml.rb
+repo https://github.com/Homebrew/homebrew-core.git
+commit 1b14b0057814c6e3fcbe993e497b3c0410c13304
+tree 20fdada63dff7a200f9b5c1e7274d711767c20d8
+path Formula/c/cpptoml.rb
+blob 4e239b2cf95ac8ee58287a1e1c4fb6852f4ddd7a
+date 2026-08-01T16:55:35Z
+subject cpptoml: annotate patches

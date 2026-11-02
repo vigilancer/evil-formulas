@@ -1,0 +1,8 @@
+url https://github.com/Homebrew/homebrew-core/blob/7683dda83ce05e5009e38ae024f63745b33afcfd/Formula/m/mpg123.rb
+repo https://github.com/Homebrew/homebrew-core.git
+commit 7683dda83ce05e5009e38ae024f63745b33afcfd
+tree 88bad7fee609a6c732adc83711abe25ed7b90ee2
+path Formula/m/mpg123.rb
+blob 4aa0dffc2abe6cc16143ed07269ce1a53e00ca71
+date 2026-09-20T14:47:54Z
+subject mpg123: update 1.33.7 bottle.

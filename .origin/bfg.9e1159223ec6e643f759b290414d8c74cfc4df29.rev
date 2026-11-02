@@ -1,0 +1,8 @@
+url https://github.com/Homebrew/homebrew-core/blob/ebfb4f1037908c1ff2054992e4023fdde33b662d/Formula/b/bfg.rb
+repo https://github.com/Homebrew/homebrew-core.git
+commit ebfb4f1037908c1ff2054992e4023fdde33b662d
+tree 9e1159223ec6e643f759b290414d8c74cfc4df29
+path Formula/b/bfg.rb
+blob ba609869cf2320fa53f236128627ab672a66c46b
+date 2026-02-19T13:05:27Z
+subject bfg: remove no_autobump!

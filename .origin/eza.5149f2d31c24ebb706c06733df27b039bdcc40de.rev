@@ -1,0 +1,8 @@
+url https://github.com/Homebrew/homebrew-core/blob/e3b65a2ca7faf1fdccd207d1094a2d787a9ac265/Formula/e/eza.rb
+repo https://github.com/Homebrew/homebrew-core.git
+commit e3b65a2ca7faf1fdccd207d1094a2d787a9ac265
+tree 5149f2d31c24ebb706c06733df27b039bdcc40de
+path Formula/e/eza.rb
+blob 6380b563faaf776d8c113045303036592ff20750
+date 2026-09-21T11:50:34Z
+subject eza: use std_cargo_fetch_args
